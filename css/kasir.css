@@ -1,0 +1,466 @@
+body{
+  width           : 100%;
+  height          : 100%;
+  margin          : auto;
+  background-color: #fff9cb;
+}
+
+.judul{
+	font-size								: 40px;
+	font-family							: myresto;
+	float										: left;
+	position								: absolute;
+	top											: 1%;
+	left										: 20px;
+	color										: yellow;
+}
+
+@font-face 	{font-family: 'MyResto';
+			 src: url('../font/BRUSHSCI.TTF')
+}
+
+@font-face 	{font-family: 'kgsecond';
+			 src: url('../font/KGSecondChancesSketch.TTF')
+}
+
+.panellogout{
+	width										: 70px;
+	background-color				: #fff;
+
+	float										: right;
+	border-radius						: 5px;
+	text-align							: center;
+	margin 									: auto;
+	margin-bottom						: 5px;
+}
+
+input[type="submit"].sign,
+input[type="button"].sign{
+  width       : 100%;
+	background 	: #a56709;
+	padding   	: 5px 5px 5px 5px;
+	font-size  	: 12px;
+	color 		 	: #fff;
+	font-weight	: bold;
+	position		: relative;
+	margin-bottom: 0px;
+}
+
+input[type="button"].sign:hover,
+input[type="submit"].sign:hover{
+		background 	: #f56709;
+		-webkit-transition-duration					: 400ms;
+		-webkit-transition-property					: background;
+		-webkit-transition-timing-function 	: ease;
+		-moz-transition-duration						: 400ms;
+		-moz-transition-property						: background;
+		-moz-transition-timing-function			: ease;
+		-o-transition-duration							: 400ms;
+		-o-transition-property							: background;
+		-o-transition-timing-function				: ease;
+}
+
+header{
+  background-image					: url("../img/side.jpg");
+	background-size						: 100% 100%;
+	width											: 100%;
+	height										: 6%;
+	min-height								: 48px;
+	position									: relative;
+	margin-bottom 						: 0px;
+}
+
+section{
+  height          : 89%;
+  position        : relative;
+  margin          : auto;
+}
+
+form{
+  margin : auto;
+}
+
+footer{
+  width                     : 100%;
+  height                    : 5%;
+  background-image					: url("../img/side.jpg");
+	background-size						: 100% 100%;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+select:hover,
+.light-table-filter:hover{
+	background													: #f5fcfe;
+	text-indent													: 0;
+	z-index															: 1;
+	color																: #373737;
+	-webkit-transition-duration					: 400ms;
+	-webkit-transition-property					: width, background;
+	-webkit-transition-timing-function 	: ease;
+	-moz-transition-duration						: 400ms;
+	-moz-transition-property						: width, background;
+	-moz-transition-timing-function			: ease;
+	-o-transition-duration							: 400ms;
+	-o-transition-property							: width, background;
+	-o-transition-timing-function				: ease;
+	width																: 100%;
+	border-color												: #ccc;
+	box-shadow													: 0 0 5px rgba(4, 129, 177, 0.5);
+	opacity															: 0.8;
+}
+
+.light-table-filter:hover{
+	background-color: #ffebce;
+	color : black;
+	opacity : 1;
+}
+
+.light-table-filter:focus{
+	background-color: #ffce84;
+	color : black;
+}
+
+input[type="submit"],input[type="button"]{
+	cursor								: pointer;
+	font-size							: 15px;
+	-moz-border-radius		: 4px;
+	border-radius					: 4px;
+	-webkit-border-radius	: 4px;
+	-webkit-box-shadow		: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow				: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow						: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+input[type="submit"].sign,
+input[type="button"].sign{
+	background 	: #a50909;
+	padding   	: 5px 5px 5px 5px;
+	font-size  	: 12px;
+	color 		 	: #fff;
+	font-weight	: bold;
+	position		: relative;
+	margin-bottom: 0px;
+}
+
+input[type="button"].sign:hover,
+input[type="submit"].sign:hover{
+		background 	: #b50100;
+		-webkit-transition-duration					: 400ms;
+		-webkit-transition-property					: background;
+		-webkit-transition-timing-function 	: ease;
+		-moz-transition-duration						: 400ms;
+		-moz-transition-property						: background;
+		-moz-transition-timing-function			: ease;
+		-o-transition-duration							: 400ms;
+		-o-transition-property							: background;
+		-o-transition-timing-function				: ease;
+}
+
+.block1{
+  width               : 70%;
+  height              : 100%;
+  background-color    : #d6d6d6;
+  position            : absolute;
+  float               : left;
+  margin              : auto;
+  border-right        : 5px solid #000;
+  left                : 30%;
+}
+
+.block2{
+  width               : 30%;
+  height              : 100%;
+  background-color    : #363636;
+  float               : left;
+  position            : absolute;
+  margin              : auto;
+}
+
+.block2child1{
+  margin              : auto;
+  width               : 96%;
+  height              : 6%;
+  background-color    : #ffffff;
+  margin-bottom       : 2%;
+  vertical-align      : middle;
+  text-align          : center;
+}
+
+.block2child2{
+  margin              : auto;
+  width               : 96%;
+  height              : 90%;
+  background-color    : #dddddd;
+  background-image    : url("../img/left_side.jpg") ;
+  background-size     : 100% 100%;
+  margin-bottom       : 2%;
+  vertical-align      : middle;
+  overflow-y          : auto;
+}
+
+input[type="button"].exit{
+  position            : absolute;
+  border-radius       : 50%;
+  background-color    : #dec718;
+  font-weight         : bold;
+  padding             : 4px 4px;
+  font-size           : 11px;
+  right               : 5px;
+  top                 : 3px;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+input[type="button"].exit:hover{
+  background-color    : yellow;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+.table table{
+	margin												: 0px auto;
+	width 												: 100%;
+	padding												: 0px;
+	margin-bottom 								: 10px;
+	border-collapse								: collapse;
+}
+
+.table tr td:nth-child(1){width : 20%;}
+.table tr td:nth-child(2){width : 20%;}
+.table tr td:nth-child(3){width : 60%;}
+
+
+.table tr:nth-child(odd) td{
+	background : #d6d4d4;
+}
+
+.table tr:first-child th{
+	background-color			: #000;
+	color									: #fff;
+	font-family						: calibri;
+	font-size							: 15px;
+}
+
+.table tr td{
+	cursor															: pointer;
+	font-weight													: bold;
+}
+
+.table tr:hover td{
+	background-color										: #9e9e9e;
+	color 															: #fff;
+	-webkit-transition-duration					: 600ms;
+	-webkit-transition-property					: background,color;
+	-webkit-transition-timing-function 	: ease;
+	-moz-transition-duration						: 600ms;
+	-moz-transition-property						: background,color;
+	-moz-transition-timing-function			: ease;
+	-o-transition-duration							: 600ms;
+	-o-transition-property							: background,color;
+	-o-transition-timing-function				: ease;
+}
+
+.table th{
+  word-wrap : break-word;
+  height    : 40px;
+  border-right	: 4px solid #000;
+  text-align                          : center;
+
+}
+
+.table td{
+	background-color										: #fff;
+	border-right												: 4px solid #000;
+	text-align													: center;
+	padding															: 7px;
+	font-size														: 16px;
+	font-family													: calibri;
+	font-weight													: normal;
+	color																: #000;
+}
+
+table td:last-child,
+table th:last-child{
+	border-right												: none;
+	border-left													: 4px solid #000;
+}
+
+.block2child1 label{
+  font-family                         : calibri;
+  font-size                           : 24px;
+  font-weight                         : bold;
+  vertical-align                      : middle;
+}
+
+legend{
+	font-size						: 11px;
+	background 					: black;
+  color: white;
+	text-transform			: uppercase;
+	font-family					: Helvetica, sans-serif;
+	font-weight					: bold;
+  position            : absolute;
+}
+
+table tr:last-child td{
+  border-bottom                       : 4px solid #000;
+}
+
+.panelhitung{
+  width                 : 96%;
+  height                : 40%;
+  background-color      : #fff;
+  margin                : auto;
+  margin-top            : 2%;
+  border                : 5px inset #000;
+}
+
+#panelinfo{
+  width                 : 94%;
+  background-color      : #363636;
+  vertical-align        : middle;
+  padding               : 1% 2%;
+  position              : relative;
+}
+
+#panelinfo input{
+  width                 : 100%;
+  height                : 30px;
+  padding               : 1% 2%;
+  font-family           : monospace;
+  font-weight           : bold;
+  font-size             : 15px;
+}
+
+.panelhitung input,
+.panelhitung input:hover{
+  width         : 100%;
+  height        : 33.33333%;
+  font-family   : monospace;
+  font-size     : 500%;
+  text-align    : right;
+  opacity       : 1;
+}
+
+.panelhitung input#uangbayar:focus{
+  background-color          : #ffce84;
+}
+
+.panelhitung input#kembalian{
+  background-color          : #c7c7c7;
+}
+
+.panelhitung input[readonly]{
+  cursor : not-allowed;
+}
+
+#paneltabelpesanan{
+  width             : 96%;
+  height            : 30%;
+  background-color  : #fff;
+  margin            : auto;
+  margin-top        : 1%;
+  overflow-y        : auto;
+  border            : 4px solid #000;
+}
+
+#tablehidangan tr td:nth-child(1){width : 55%;}
+#tablehidangan tr td:nth-child(2){width : 15%;}
+#tablehidangan tr td:nth-child(3){width : 15%;}
+#tablehidangan tr td:nth-child(4){width : 15%;}
+
+#tablehidangan tr th:nth-child(1){width : 55%;}
+#tablehidangan tr th:nth-child(2){width : 15%;}
+#tablehidangan tr th:nth-child(3){width : 15%;}
+#tablehidangan tr th:nth-child(4){width : 15%;}
+
+#tablehidangan tr td:first-child{
+  text-align: left;
+}
+
+#panelolah{
+  margin-top  : 1%;
+  width       : 100%;
+  background-color : #363636;
+  position            : relative;
+  text-align: center;
+  padding       : 1% 0px;
+}
+
+#proses{
+  background-color: #6f6f6f;
+  color           : #fff;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-property					: background;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+#proses:hover{
+  background-color: #8f6f6f;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-property					: background;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+input[disabled]#proses,
+input[disabled]#proses:hover{
+  background-color                    : gray;
+  cursor                              : not-allowed;
+}
+
+#batal{
+  background-color: #ab0000;
+  color           : #fff;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-property					: background;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+#batal:hover{
+  background-color : #bb0000;
+  -webkit-transition-duration					: 600ms;
+  -webkit-transition-property					: background;
+  -webkit-transition-timing-function 	: ease;
+  -moz-transition-duration						: 600ms;
+  -moz-transition-property						: background;
+  -moz-transition-timing-function			: ease;
+  -o-transition-duration							: 600ms;
+  -o-transition-property							: background;
+  -o-transition-timing-function				: ease;
+}
+
+#proses,#batal{
+  width               : 10%;
+  margin              : auto;
+}

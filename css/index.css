@@ -1,0 +1,302 @@
+body{
+	margin									: auto;
+	-webkit-touch-callout		: none;
+	-webkit-user-select			: none;
+	-khtml-user-select			: none;
+	-ms-user-select					: none;
+	-moz-user-select				: none;
+}
+
+fieldset{
+	border							: none;
+	width								: 90%;
+  margin              : auto;
+	position						: relative;
+  text-align					: center;
+  padding             : 0;
+}
+
+#setinput{
+	margin-top : 3%;
+}
+
+input[type="text"]{
+	padding															: 2px 6px;
+	height															: 25px;
+	max-height													: 25px;
+	width																: 95%;
+	text-transform											: uppercase;
+	-webkit-transition-duration					: 600ms;
+	-webkit-transition-property					: width;
+	-webkit-transition-timing-function 	: ease;
+	-moz-transition-duration						: 600ms;
+	-moz-transition-property						: width;
+	-moz-transition-timing-function			: ease;
+	-o-transition-duration							: 600ms;
+	-o-transition-property							: width;
+	-o-transition-timing-function				: ease;
+}
+
+input[type="text"]#nomor{
+	width : 70%;
+	border-top-left-radius : 15px;
+	border-bottom-left-radius : 15px;
+}
+
+form{
+	margin : auto;
+}
+
+input[type="submit"]#tetapkan{
+	width 						: 20%;
+	height 						: 22px;
+	top 							: -3;
+	position 					: relative;
+	cursor 						: pointer;
+	background-color 	: #22593e;
+	color 						: #fff;
+	font-weight				: bold;
+	font-size 				: 12px;
+	box-shadow				: 0 2px 2px #000;
+}
+
+.utama{
+	background-image	: url(../img/background3.jpg);
+	background-repeat	: no-repeat;
+	background-size		: 100% 100%;
+	width							: 100%;
+	height						: 100%;
+	margin						: auto;
+	position					: fixed;
+}
+
+
+.interface{
+	width										: 30%;
+	height									: 35%;
+	min-height							: 250px;
+	min-width								: 350px;
+	position								: relative;
+	margin									: auto;
+	top											: 30%;
+	background-color				: #140605;
+}
+
+.above{
+	width								: 100%;
+	position							: relative;
+	height								: 20%;
+	min-height							: 50px;
+	background-image					: URL(../img/side.jpg);
+	font-size							: 40px;
+	font-family							: RestoBro;
+	color								: #000000;
+	text-align							: center;
+	line-height							: 54px;
+}
+
+@font-face 	{font-family: 'RestoBro';
+			 src: url('../font/KGSecondChancesSketch.TTF')
+}
+
+
+.middle{
+	width									: 100%;
+	height								: 70%;
+	min-height						: 100px;
+	position							: relative;
+	background-image			: URL(../img/left_side.jpg);
+	background-repeat			: no-repeat;
+	background-size				: 100% 100%;
+}
+
+.panelmenu{
+	width								: 100%;
+	height							: 100%;
+	background-color		: #eeeeee;
+	position						: absolute;
+	font-weight					: bold;
+	font-size						: 20px;
+	font-family					: calibri;
+	text-align					: center;
+}
+
+.judul{
+	top								: 10px;
+	position					: relative;
+}
+
+.menu{
+	width							: 90%;
+	height						: 60%;
+	top								: 20px;
+	position					: relative;
+	display						: inline-block;
+}
+
+.head{
+	width 						: 100%;
+	height 						: 20%;
+	min-height 				: 100px;
+	background-color 	: silver;
+	position 					: relative;
+	margin 						: auto;
+	margin-bottom			: 1%;
+	text-align				: center;
+}
+
+#popupBox{
+	width										: 100%;
+	height									: 100%;
+	z-index									: 998;
+	display									: none;
+	background-color				: rgb(0,0,0);
+	background-color				: rgba(0,0,0,0.7);
+	position								: fixed;
+	margin									: auto;
+}
+
+.head div label{
+	font-size 				: 32px;
+	text-align				: center;
+	font-family				: head;
+	font-weight				: bold;
+  top               : 2px;
+  position          : relative;
+}
+
+.close {
+	text-align						: center;
+	background-color			: red;
+	width									: 20px;
+	max-width							: 60px;
+	height								: 11px;
+	border								: 4px solid #000;
+  color									: #000;
+  float									: right;
+  font-size							: 18px;
+  font-weight						: bold;
+	font-family						: calibri;
+	position							: absolute;
+	right									: 5px;
+	top										: 5px;
+	z-index								: 4;
+}
+
+.close:hover, .close:focus {
+    color								: #fff;
+    text-decoration			: none;
+    cursor							: pointer;
+}
+
+.exit{
+	position: absolute;
+	top 		: -8px;
+	left    : 6px;
+}
+
+@font-face 	{font-family: 'head';
+			 src: url('../font/KGSecondChancesSketch.TTF')
+}
+
+#wrapper{
+	width 									: 30%;
+	height 									: 100px;
+	z-index 								: 999;
+	background-color 				: #c3c3c3;
+	margin 									: auto;
+	position 								: relative;
+	border 									: 4px solid #000;
+	display 								: none;
+	font-size								: 100%;
+}
+
+#wrapper div.head{
+	min-height 								: 49px;
+	height 										: 5%;
+	margin-bottom							: 0px;
+}
+
+#wrapper div.close{
+	top : 6px;
+	right : -2%;
+}
+
+div#popupBox div#wrapper{
+	z-index 								: 999;
+	background-color 				: #e8e8e8;
+	margin 									: auto;
+	position 								: relative;
+	top 										: 8%;
+	border 									: 4px solid #000;
+}
+
+#admin,#pelanggan,#daftar{
+	width									: 85px;
+	height								: 85px;
+}
+
+#admin{
+	background-image			: URL(../img/author_default.png);
+	background-color			: #cccccc;
+	background-repeat			: no-repeat;
+	background-position		: center top 15px;
+	padding-top						: 55px;
+	background-size				: 40px 40px;
+	font-weight						: bold;
+	font-family						: calibri;
+	box-shadow						: 1px 2px 2px 1px;
+	cursor								: pointer;
+}
+
+#admin:hover{
+	background-image			: URL(../img/author_hover.png);
+	background-color			: #000;
+	color									: #fff;
+}
+
+#pelanggan{
+	background-image			: URL(../img/pelanggan_default.png);
+	background-color			: #cccccc;
+	background-repeat			: no-repeat;
+	background-position		: center top 15px;
+	padding-top						: 55px;
+	background-size				: 40px 40px;
+	font-weight						: bold;
+	font-family						: calibri;
+	box-shadow						: 1px 2px 2px 1px;
+	cursor								: pointer;
+}
+
+#pelanggan:hover{
+	background-image			: url("../img/pelanggan_hover.png");
+	background-color			: #000;
+	color									: #fff;
+}
+
+#daftar{
+	background-image			: url("../img/database_default.png");
+	background-color			: #cccccc;
+	background-repeat			: no-repeat;
+	background-position		: center top 15px;
+	padding-top						: 55px;
+	background-size				: 40px 40px;
+	font-weight						: bold;
+	font-family						: calibri;
+	box-shadow						: 1px 2px 2px 1px;
+	cursor								: pointer;
+}
+
+#daftar:hover{
+	background-image			: url("../img/database_hover.png");
+	background-color			: #000;
+	color									: #fff;
+}
+
+.bottom{
+	width												: 100%;
+	position										: relative;
+	height											: 10%;
+	background-image						: url("../img/side.jpg");
+	bottom											: 0px;
+}
